@@ -1,0 +1,10 @@
+id: chofu
+name: Chofu 3x3 Charlieplex
+type: shield
+# url: https://github.com/yourusername/your-zmk-config   あなたのconfigリポURL
+requires:
+  - ble
+features:
+  - keys
+siblings:
+  - chofu  # 一体型なので自分自身
