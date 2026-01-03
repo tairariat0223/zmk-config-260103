@@ -1,5 +1,6 @@
-Board:   xiao_ble
-Shield:  chofu
+include:
+  - board: xiao_ble
+    shield: chofu
 
 # This file generates the GitHub Actions matrix.
 # For simple board + shield combinations, add them to the top level board and
