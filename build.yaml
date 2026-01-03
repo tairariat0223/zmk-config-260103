@@ -1,5 +1,5 @@
 include:
-  - board: xiao_ble
+  - board: seeed_xiao_nrf53840
     shield: chofu
 
 # This file generates the GitHub Actions matrix.
