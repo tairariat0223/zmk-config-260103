@@ -1,3 +1,14 @@
+/ {
+    chosen {
+        zmk,kscan = <&kscan_dummy>;
+    };
+
+    kscan_dummy: kscan_dummy {
+        compatible = "zmk,kscan-dummy";
+    };
+};
+
+/*
 #include <dt-bindings/zmk/matrix-transform.h>
 
 / {
@@ -33,3 +44,4 @@
         transform = <&default_transform>;
     };
 };
+*/
