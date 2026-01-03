@@ -1,0 +1,9 @@
+if SHIELD_CHOFU
+
+config ZMK_KEYBOARD_NAME
+    default "Chofu 3x3"
+
+config ZMK_BLE
+    default y
+
+endif
