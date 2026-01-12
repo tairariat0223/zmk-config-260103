@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <dt-bindings/zmk/physical_layout.h>
 
 / {
     chosen {
@@ -42,16 +41,16 @@
 
         keys = <
         /* width height  x   y   rot rx ry */
-        &key_physical_attrs 100 100   0   0   0  0  0
-        &key_physical_attrs 100 100 120   0   0  0  0
-        &key_physical_attrs 100 100 240   0   0  0  0
+        100 100   0   0   0   0   0
+        100 100 120   0   0   0   0
+        100 100 240   0   0   0   0
 
-        &key_physical_attrs 100 100   0 120   0  0  0
-        &key_physical_attrs 100 100 120 120   0  0  0
-        &key_physical_attrs 100 100 240 120   0  0  0
+        100 100   0 120   0   0   0
+        100 100 120 120   0   0   0
+        100 100 240 120   0   0   0
 
-        &key_physical_attrs 100 100   0 240   0  0  0
-        &key_physical_attrs 100 100 120 240   0  0  0
-        &key_physical_attrs 100 100 240 240   0  0  0
+        100 100   0 240   0   0   0
+        100 100 120 240   0   0   0
+        100 100 240 240   0   0   0
     };
 };
