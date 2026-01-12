@@ -38,7 +38,8 @@
     chofu_layout: layout_default {
         compatible = "zmk,physical-layout";
         display-name = "chofu";
-        trandform = <&chofu_transform>;
+        transform = <&chofu_transform>;
+        kscan = <&kscan0>;
 
     keys = <
         100 100   0   0   0   0   0
