@@ -7,7 +7,7 @@
         zmk,physical-layout = &chofu_layout;
     };
 
-    kscan0: kscan0 {
+    kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
 
@@ -52,5 +52,6 @@
         100 100   0 240   0   0   0
         100 100 120 240   0   0   0
         100 100 240 240   0   0   0
+        >;
     };
 };
