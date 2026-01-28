@@ -1,4 +1,4 @@
-if ZMK_KEYBOARD_CHOFU
+if SHIELD_CHOFU
 
 config ZMK_KEYBOARD_NAME
     default "chofu"
