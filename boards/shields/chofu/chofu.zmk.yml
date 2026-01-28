@@ -1,9 +1,9 @@
+format: "1"
 id: chofu
 name: Chofu
 type: shield
 
-requires:
-  - xiao_ble
+requires: [xiao_ble:
 
 features:
   - keys
