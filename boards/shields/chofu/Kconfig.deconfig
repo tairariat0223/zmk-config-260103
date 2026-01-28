@@ -4,9 +4,6 @@ config ZMK_KEYBOARD_NAME
     default "chofu"
 
 config ZMK_BLE
-    default n
-
-config ZMK_USB
     default y
 
 endif
