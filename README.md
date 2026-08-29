@@ -1,1 +1,1 @@
-for chofu64
+for chofu_pinkchan
